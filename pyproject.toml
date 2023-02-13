@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "homework31"
+version = "0.1.0"
+description = ""
+authors = ["Evlit <evlit23@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.6"
+djangorestframework-simplejwt = "^5.2.2"
+djangorestframework = "^3.14.0"
+pillow = "^9.4.0"
+psycopg2 = "^2.9.5"
+pytest-django = "^4.5.2"
+pytest-factoryboy = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
